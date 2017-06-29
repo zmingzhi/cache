@@ -1,5 +1,5 @@
 {
-  "name": "zmingzhi/cache",
+  "name": "zongphp/cache",
   "description": "缓存组件",
   "type": "project",
   "keywords": [
@@ -9,10 +9,10 @@
   "minimum-stability": "stable",
   "require": {
     "php": ">=5.4.0",
-    "zmingzhi/config": "~1.0",
-    "zmingzhi/db": "~1.0",
-    "zmingzhi/arr": "~1.0",
-    "zmingzhi/dir": "~1.0"
+    "zongphp/config": "~1.0",
+    "zongphp/db": "~1.0",
+    "zongphp/arr": "~1.0",
+    "zongphp/dir": "~1.0"
   },
   "autoload": {
     "files": [
