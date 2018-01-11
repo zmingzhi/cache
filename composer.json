@@ -1,0 +1,25 @@
+{
+  "name": "zongphp/cache",
+  "description": "缓存组件",
+  "keywords": [
+    "zongphp",
+    "邮件处理"
+  ],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "zongphp/config": "~2.0",
+    "zongphp/db": "~2.0",
+    "zongphp/arr": "~2.0",
+    "zongphp/dir": "~2.0"
+  },
+  "autoload": {
+    "files": [
+      "src/helper.php"
+    ],
+    "psr-4": {
+      "zongphp\\cache\\": "src"
+    }
+  }
+}
